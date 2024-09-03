@@ -30,7 +30,7 @@ export default class Foto extends Model {
       },
     }, {
       sequelize,
-      tableName: 'foto',
+      tableName: 'fotos',
     });
     return this;
   }
