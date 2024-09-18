@@ -20,7 +20,7 @@ class App {
   }
 
   middlewares() {
-    this.app.use(cors());  // Habilita o CORS para todas as rotas
+    this.app.use(cors());
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
   }
