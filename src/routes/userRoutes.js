@@ -4,9 +4,9 @@ import loginRequired from "../middlewares/loginRequired";
 
 const router = new Router();
 
-//Nao deveria existir
-// router.get('/', userController.index);
-// router.get('/:id', userController.show);
+//Nao deveria exi
+router.get('/', userController.index);
+router.get('/:id', userController.show);
 
 
 router.post('/', userController.store);
